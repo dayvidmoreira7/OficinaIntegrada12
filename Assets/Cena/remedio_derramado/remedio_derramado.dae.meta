@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: b667c1da223e8504ba4dfb1c4a1450de
+timeCreated: 1476206972
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: group_0
+    100002: group_0 1
+    100004: group_0 10
+    100006: group_0 11
+    100008: group_0 2
+    100010: group_0 3
+    100012: group_0 4
+    100014: group_0 5
+    100016: group_0 6
+    100018: group_0 7
+    100020: group_0 8
+    100022: group_0 9
+    100024: group_1
+    100026: group_1 1
+    100028: group_1 10
+    100030: group_1 11
+    100032: group_1 2
+    100034: group_1 3
+    100036: group_1 4
+    100038: group_1 5
+    100040: group_1 6
+    100042: group_1 7
+    100044: group_1 8
+    100046: group_1 9
+    100048: ID18
+    100050: ID24
+    100052: ID42
+    100054: ID48
+    100056: ID54
+    100058: ID60
+    100060: ID79
+    100062: ID79 1
+    100064: ID79 10
+    100066: ID79 11
+    100068: ID79 2
+    100070: ID79 3
+    100072: ID79 4
+    100074: ID79 5
+    100076: ID79 6
+    100078: ID79 7
+    100080: ID79 8
+    100082: ID79 9
+    100084: instance_0
+    100086: instance_1
+    100088: instance_10
+    100090: instance_11
+    100092: instance_12
+    100094: instance_13
+    100096: instance_2
+    100098: instance_3
+    100100: instance_4
+    100102: instance_5
+    100104: instance_6
+    100106: instance_7
+    100108: instance_8
+    100110: instance_9
+    100112: Last Saved SketchUp View
+    100114: //RootNode
+    100116: "\u7EC4\u4EF6_1"
+    100118: "\u7EC4\u4EF6_2"
+    100120: "\u7EC4\u4EF6_3"
+    100122: "\u7EC4\u4EF6_3 1"
+    100124: "\u7EC4\u4EF6_3 10"
+    100126: "\u7EC4\u4EF6_3 11"
+    100128: "\u7EC4\u4EF6_3 2"
+    100130: "\u7EC4\u4EF6_3 3"
+    100132: "\u7EC4\u4EF6_3 4"
+    100134: "\u7EC4\u4EF6_3 5"
+    100136: "\u7EC4\u4EF6_3 6"
+    100138: "\u7EC4\u4EF6_3 7"
+    100140: "\u7EC4\u4EF6_3 8"
+    100142: "\u7EC4\u4EF6_3 9"
+    400000: group_0
+    400002: group_0 1
+    400004: group_0 10
+    400006: group_0 11
+    400008: group_0 2
+    400010: group_0 3
+    400012: group_0 4
+    400014: group_0 5
+    400016: group_0 6
+    400018: group_0 7
+    400020: group_0 8
+    400022: group_0 9
+    400024: group_1
+    400026: group_1 1
+    400028: group_1 10
+    400030: group_1 11
+    400032: group_1 2
+    400034: group_1 3
+    400036: group_1 4
+    400038: group_1 5
+    400040: group_1 6
+    400042: group_1 7
+    400044: group_1 8
+    400046: group_1 9
+    400048: ID18
+    400050: ID24
+    400052: ID42
+    400054: ID48
+    400056: ID54
+    400058: ID60
+    400060: ID79
+    400062: ID79 1
+    400064: ID79 10
+    400066: ID79 11
+    400068: ID79 2
+    400070: ID79 3
+    400072: ID79 4
+    400074: ID79 5
+    400076: ID79 6
+    400078: ID79 7
+    400080: ID79 8
+    400082: ID79 9
+    400084: instance_0
+    400086: instance_1
+    400088: instance_10
+    400090: instance_11
+    400092: instance_12
+    400094: instance_13
+    400096: instance_2
+    400098: instance_3
+    400100: instance_4
+    400102: instance_5
+    400104: instance_6
+    400106: instance_7
+    400108: instance_8
+    400110: instance_9
+    400112: Last Saved SketchUp View
+    400114: //RootNode
+    400116: "\u7EC4\u4EF6_1"
+    400118: "\u7EC4\u4EF6_2"
+    400120: "\u7EC4\u4EF6_3"
+    400122: "\u7EC4\u4EF6_3 1"
+    400124: "\u7EC4\u4EF6_3 10"
+    400126: "\u7EC4\u4EF6_3 11"
+    400128: "\u7EC4\u4EF6_3 2"
+    400130: "\u7EC4\u4EF6_3 3"
+    400132: "\u7EC4\u4EF6_3 4"
+    400134: "\u7EC4\u4EF6_3 5"
+    400136: "\u7EC4\u4EF6_3 6"
+    400138: "\u7EC4\u4EF6_3 7"
+    400140: "\u7EC4\u4EF6_3 8"
+    400142: "\u7EC4\u4EF6_3 9"
+    2300000: group_0
+    2300002: group_0 1
+    2300004: group_0 10
+    2300006: group_0 11
+    2300008: group_0 2
+    2300010: group_0 3
+    2300012: group_0 4
+    2300014: group_0 5
+    2300016: group_0 6
+    2300018: group_0 7
+    2300020: group_0 8
+    2300022: group_0 9
+    2300024: group_1
+    2300026: group_1 1
+    2300028: group_1 10
+    2300030: group_1 11
+    2300032: group_1 2
+    2300034: group_1 3
+    2300036: group_1 4
+    2300038: group_1 5
+    2300040: group_1 6
+    2300042: group_1 7
+    2300044: group_1 8
+    2300046: group_1 9
+    2300048: ID18
+    2300050: ID24
+    2300052: ID42
+    2300054: ID48
+    2300056: ID54
+    2300058: ID60
+    2300060: ID79
+    2300062: ID79 1
+    2300064: ID79 10
+    2300066: ID79 11
+    2300068: ID79 2
+    2300070: ID79 3
+    2300072: ID79 4
+    2300074: ID79 5
+    2300076: ID79 6
+    2300078: ID79 7
+    2300080: ID79 8
+    2300082: ID79 9
+    2300084: "\u7EC4\u4EF6_1"
+    2300086: "\u7EC4\u4EF6_2"
+    3300000: group_0
+    3300002: group_0 1
+    3300004: group_0 10
+    3300006: group_0 11
+    3300008: group_0 2
+    3300010: group_0 3
+    3300012: group_0 4
+    3300014: group_0 5
+    3300016: group_0 6
+    3300018: group_0 7
+    3300020: group_0 8
+    3300022: group_0 9
+    3300024: group_1
+    3300026: group_1 1
+    3300028: group_1 10
+    3300030: group_1 11
+    3300032: group_1 2
+    3300034: group_1 3
+    3300036: group_1 4
+    3300038: group_1 5
+    3300040: group_1 6
+    3300042: group_1 7
+    3300044: group_1 8
+    3300046: group_1 9
+    3300048: ID18
+    3300050: ID24
+    3300052: ID42
+    3300054: ID48
+    3300056: ID54
+    3300058: ID60
+    3300060: ID79
+    3300062: ID79 1
+    3300064: ID79 10
+    3300066: ID79 11
+    3300068: ID79 2
+    3300070: ID79 3
+    3300072: ID79 4
+    3300074: ID79 5
+    3300076: ID79 6
+    3300078: ID79 7
+    3300080: ID79 8
+    3300082: ID79 9
+    3300084: "\u7EC4\u4EF6_1"
+    3300086: "\u7EC4\u4EF6_2"
+    4300000: "\u7EC4\u4EF6_2"
+    4300002: ID18
+    4300004: ID24
+    4300006: "\u7EC4\u4EF6_1"
+    4300008: ID42
+    4300010: ID48
+    4300012: ID54
+    4300014: ID60
+    4300016: group_0
+    4300018: ID79
+    4300020: group_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

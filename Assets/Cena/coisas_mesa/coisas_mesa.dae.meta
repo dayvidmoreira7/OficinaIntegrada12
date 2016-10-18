@@ -1,0 +1,625 @@
+fileFormatVersion: 2
+guid: c41aee9413147914eb584ac98ca55888
+timeCreated: 1476385657
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Book_-_Open
+    100002: Book_2_3
+    100004: Book_2_3 1
+    100006: Book_2_3 10
+    100008: Book_2_3 2
+    100010: Book_2_3 3
+    100012: Book_2_3 4
+    100014: Book_2_3 5
+    100016: Book_2_3 6
+    100018: Book_2_3 7
+    100020: Book_2_3 8
+    100022: Book_2_3 9
+    100024: Book_2_5
+    100026: Book_2_5 1
+    100028: Book_2_5 2
+    100030: Book_2_5 3
+    100032: Book_2_5 4
+    100034: Book_2_6
+    100036: Book_2_6 1
+    100038: Book_2_6 10
+    100040: Book_2_6 11
+    100042: Book_2_6 2
+    100044: Book_2_6 3
+    100046: Book_2_6 4
+    100048: Book_2_6 5
+    100050: Book_2_6 6
+    100052: Book_2_6 7
+    100054: Book_2_6 8
+    100056: Book_2_6 9
+    100058: Book_2_7
+    100060: Book_2_7 1
+    100062: Book_2_7 2
+    100064: Book_2_7 3
+    100066: Book_2_7 4
+    100068: Book_2_7 5
+    100070: Book_2_7 6
+    100072: Book_2_7 7
+    100074: Book_2_7 8
+    100076: Book_2_8
+    100078: Book_2_8 1
+    100080: Book_2_8 2
+    100082: Book_2_8 3
+    100084: Book_2_8 4
+    100086: Book_2_8 5
+    100088: Book_2_8 6
+    100090: Books_-_Mixed
+    100092: Books_-_Pile
+    100094: Books_-_Set_-_Messy
+    100096: //RootNode
+    100098: Document
+    100100: Document 1
+    100102: Dossiers
+    100104: File_Folder_-_Open
+    100106: File_Folder_-_Shut
+    100108: ID111
+    100110: ID111 1
+    100112: ID111 2
+    100114: ID111 3
+    100116: ID111 4
+    100118: ID111 5
+    100120: ID111 6
+    100122: ID111 7
+    100124: ID111 8
+    100126: ID148
+    100128: ID148 1
+    100130: ID148 2
+    100132: ID148 3
+    100134: ID148 4
+    100136: ID180
+    100138: ID180 1
+    100140: ID180 2
+    100142: ID180 3
+    100144: ID180 4
+    100146: ID180 5
+    100148: ID180 6
+    100150: ID200
+    100152: ID200 1
+    100154: ID200 2
+    100156: ID200 3
+    100158: ID227
+    100160: ID274
+    100162: ID282
+    100164: ID29
+    100166: ID29 1
+    100168: ID29 2
+    100170: ID29 3
+    100172: ID292
+    100174: ID300
+    100176: ID308
+    100178: ID321
+    100180: ID356
+    100182: ID54
+    100184: ID54 1
+    100186: ID54 10
+    100188: ID54 11
+    100190: ID54 2
+    100192: ID54 3
+    100194: ID54 4
+    100196: ID54 5
+    100198: ID54 6
+    100200: ID54 7
+    100202: ID54 8
+    100204: ID54 9
+    100206: ID85
+    100208: ID85 1
+    100210: instance_0
+    100212: instance_1
+    100214: instance_10
+    100216: instance_11
+    100218: instance_12
+    100220: instance_13
+    100222: instance_14
+    100224: instance_15
+    100226: instance_16
+    100228: instance_17
+    100230: instance_18
+    100232: instance_19
+    100234: instance_2
+    100236: instance_20
+    100238: instance_21
+    100240: instance_22
+    100242: instance_23
+    100244: instance_24
+    100246: instance_25
+    100248: instance_26
+    100250: instance_27
+    100252: instance_28
+    100254: instance_29
+    100256: instance_3
+    100258: instance_30
+    100260: instance_31
+    100262: instance_32
+    100264: instance_33
+    100266: instance_34
+    100268: instance_35
+    100270: instance_36
+    100272: instance_37
+    100274: instance_38
+    100276: instance_39
+    100278: instance_4
+    100280: instance_40
+    100282: instance_41
+    100284: instance_42
+    100286: instance_43
+    100288: instance_44
+    100290: instance_45
+    100292: instance_46
+    100294: instance_47
+    100296: instance_48
+    100298: instance_49
+    100300: instance_5
+    100302: instance_50
+    100304: instance_51
+    100306: instance_52
+    100308: instance_53
+    100310: instance_54
+    100312: instance_6
+    100314: instance_7
+    100316: instance_8
+    100318: instance_9
+    100320: Last Saved SketchUp View
+    100322: Notepaper
+    100324: Notepaper_-_Writing
+    400000: Book_-_Open
+    400002: Book_2_3
+    400004: Book_2_3 1
+    400006: Book_2_3 10
+    400008: Book_2_3 2
+    400010: Book_2_3 3
+    400012: Book_2_3 4
+    400014: Book_2_3 5
+    400016: Book_2_3 6
+    400018: Book_2_3 7
+    400020: Book_2_3 8
+    400022: Book_2_3 9
+    400024: Book_2_5
+    400026: Book_2_5 1
+    400028: Book_2_5 2
+    400030: Book_2_5 3
+    400032: Book_2_5 4
+    400034: Book_2_6
+    400036: Book_2_6 1
+    400038: Book_2_6 10
+    400040: Book_2_6 11
+    400042: Book_2_6 2
+    400044: Book_2_6 3
+    400046: Book_2_6 4
+    400048: Book_2_6 5
+    400050: Book_2_6 6
+    400052: Book_2_6 7
+    400054: Book_2_6 8
+    400056: Book_2_6 9
+    400058: Book_2_7
+    400060: Book_2_7 1
+    400062: Book_2_7 2
+    400064: Book_2_7 3
+    400066: Book_2_7 4
+    400068: Book_2_7 5
+    400070: Book_2_7 6
+    400072: Book_2_7 7
+    400074: Book_2_7 8
+    400076: Book_2_8
+    400078: Book_2_8 1
+    400080: Book_2_8 2
+    400082: Book_2_8 3
+    400084: Book_2_8 4
+    400086: Book_2_8 5
+    400088: Book_2_8 6
+    400090: Books_-_Mixed
+    400092: Books_-_Pile
+    400094: Books_-_Set_-_Messy
+    400096: //RootNode
+    400098: Document
+    400100: Document 1
+    400102: Dossiers
+    400104: File_Folder_-_Open
+    400106: File_Folder_-_Shut
+    400108: ID111
+    400110: ID111 1
+    400112: ID111 2
+    400114: ID111 3
+    400116: ID111 4
+    400118: ID111 5
+    400120: ID111 6
+    400122: ID111 7
+    400124: ID111 8
+    400126: ID148
+    400128: ID148 1
+    400130: ID148 2
+    400132: ID148 3
+    400134: ID148 4
+    400136: ID180
+    400138: ID180 1
+    400140: ID180 2
+    400142: ID180 3
+    400144: ID180 4
+    400146: ID180 5
+    400148: ID180 6
+    400150: ID200
+    400152: ID200 1
+    400154: ID200 2
+    400156: ID200 3
+    400158: ID227
+    400160: ID274
+    400162: ID282
+    400164: ID29
+    400166: ID29 1
+    400168: ID29 2
+    400170: ID29 3
+    400172: ID292
+    400174: ID300
+    400176: ID308
+    400178: ID321
+    400180: ID356
+    400182: ID54
+    400184: ID54 1
+    400186: ID54 10
+    400188: ID54 11
+    400190: ID54 2
+    400192: ID54 3
+    400194: ID54 4
+    400196: ID54 5
+    400198: ID54 6
+    400200: ID54 7
+    400202: ID54 8
+    400204: ID54 9
+    400206: ID85
+    400208: ID85 1
+    400210: instance_0
+    400212: instance_1
+    400214: instance_10
+    400216: instance_11
+    400218: instance_12
+    400220: instance_13
+    400222: instance_14
+    400224: instance_15
+    400226: instance_16
+    400228: instance_17
+    400230: instance_18
+    400232: instance_19
+    400234: instance_2
+    400236: instance_20
+    400238: instance_21
+    400240: instance_22
+    400242: instance_23
+    400244: instance_24
+    400246: instance_25
+    400248: instance_26
+    400250: instance_27
+    400252: instance_28
+    400254: instance_29
+    400256: instance_3
+    400258: instance_30
+    400260: instance_31
+    400262: instance_32
+    400264: instance_33
+    400266: instance_34
+    400268: instance_35
+    400270: instance_36
+    400272: instance_37
+    400274: instance_38
+    400276: instance_39
+    400278: instance_4
+    400280: instance_40
+    400282: instance_41
+    400284: instance_42
+    400286: instance_43
+    400288: instance_44
+    400290: instance_45
+    400292: instance_46
+    400294: instance_47
+    400296: instance_48
+    400298: instance_49
+    400300: instance_5
+    400302: instance_50
+    400304: instance_51
+    400306: instance_52
+    400308: instance_53
+    400310: instance_54
+    400312: instance_6
+    400314: instance_7
+    400316: instance_8
+    400318: instance_9
+    400320: Last Saved SketchUp View
+    400322: Notepaper
+    400324: Notepaper_-_Writing
+    2300000: Book_-_Open
+    2300002: Book_2_3
+    2300004: Book_2_3 1
+    2300006: Book_2_3 10
+    2300008: Book_2_3 2
+    2300010: Book_2_3 3
+    2300012: Book_2_3 4
+    2300014: Book_2_3 5
+    2300016: Book_2_3 6
+    2300018: Book_2_3 7
+    2300020: Book_2_3 8
+    2300022: Book_2_3 9
+    2300024: Book_2_5
+    2300026: Book_2_5 1
+    2300028: Book_2_5 2
+    2300030: Book_2_5 3
+    2300032: Book_2_5 4
+    2300034: Book_2_6
+    2300036: Book_2_6 1
+    2300038: Book_2_6 10
+    2300040: Book_2_6 11
+    2300042: Book_2_6 2
+    2300044: Book_2_6 3
+    2300046: Book_2_6 4
+    2300048: Book_2_6 5
+    2300050: Book_2_6 6
+    2300052: Book_2_6 7
+    2300054: Book_2_6 8
+    2300056: Book_2_6 9
+    2300058: Book_2_7
+    2300060: Book_2_7 1
+    2300062: Book_2_7 2
+    2300064: Book_2_7 3
+    2300066: Book_2_7 4
+    2300068: Book_2_7 5
+    2300070: Book_2_7 6
+    2300072: Book_2_7 7
+    2300074: Book_2_7 8
+    2300076: Book_2_8
+    2300078: Book_2_8 1
+    2300080: Book_2_8 2
+    2300082: Book_2_8 3
+    2300084: Book_2_8 4
+    2300086: Book_2_8 5
+    2300088: Book_2_8 6
+    2300090: Document
+    2300092: Document 1
+    2300094: File_Folder_-_Open
+    2300096: File_Folder_-_Shut
+    2300098: ID111
+    2300100: ID111 1
+    2300102: ID111 2
+    2300104: ID111 3
+    2300106: ID111 4
+    2300108: ID111 5
+    2300110: ID111 6
+    2300112: ID111 7
+    2300114: ID111 8
+    2300116: ID148
+    2300118: ID148 1
+    2300120: ID148 2
+    2300122: ID148 3
+    2300124: ID148 4
+    2300126: ID180
+    2300128: ID180 1
+    2300130: ID180 2
+    2300132: ID180 3
+    2300134: ID180 4
+    2300136: ID180 5
+    2300138: ID180 6
+    2300140: ID200
+    2300142: ID200 1
+    2300144: ID200 2
+    2300146: ID200 3
+    2300148: ID227
+    2300150: ID274
+    2300152: ID282
+    2300154: ID29
+    2300156: ID29 1
+    2300158: ID29 2
+    2300160: ID29 3
+    2300162: ID292
+    2300164: ID300
+    2300166: ID308
+    2300168: ID321
+    2300170: ID356
+    2300172: ID54
+    2300174: ID54 1
+    2300176: ID54 10
+    2300178: ID54 11
+    2300180: ID54 2
+    2300182: ID54 3
+    2300184: ID54 4
+    2300186: ID54 5
+    2300188: ID54 6
+    2300190: ID54 7
+    2300192: ID54 8
+    2300194: ID54 9
+    2300196: ID85
+    2300198: ID85 1
+    2300200: Notepaper
+    2300202: Notepaper_-_Writing
+    3300000: Book_-_Open
+    3300002: Book_2_3
+    3300004: Book_2_3 1
+    3300006: Book_2_3 10
+    3300008: Book_2_3 2
+    3300010: Book_2_3 3
+    3300012: Book_2_3 4
+    3300014: Book_2_3 5
+    3300016: Book_2_3 6
+    3300018: Book_2_3 7
+    3300020: Book_2_3 8
+    3300022: Book_2_3 9
+    3300024: Book_2_5
+    3300026: Book_2_5 1
+    3300028: Book_2_5 2
+    3300030: Book_2_5 3
+    3300032: Book_2_5 4
+    3300034: Book_2_6
+    3300036: Book_2_6 1
+    3300038: Book_2_6 10
+    3300040: Book_2_6 11
+    3300042: Book_2_6 2
+    3300044: Book_2_6 3
+    3300046: Book_2_6 4
+    3300048: Book_2_6 5
+    3300050: Book_2_6 6
+    3300052: Book_2_6 7
+    3300054: Book_2_6 8
+    3300056: Book_2_6 9
+    3300058: Book_2_7
+    3300060: Book_2_7 1
+    3300062: Book_2_7 2
+    3300064: Book_2_7 3
+    3300066: Book_2_7 4
+    3300068: Book_2_7 5
+    3300070: Book_2_7 6
+    3300072: Book_2_7 7
+    3300074: Book_2_7 8
+    3300076: Book_2_8
+    3300078: Book_2_8 1
+    3300080: Book_2_8 2
+    3300082: Book_2_8 3
+    3300084: Book_2_8 4
+    3300086: Book_2_8 5
+    3300088: Book_2_8 6
+    3300090: Document
+    3300092: Document 1
+    3300094: File_Folder_-_Open
+    3300096: File_Folder_-_Shut
+    3300098: ID111
+    3300100: ID111 1
+    3300102: ID111 2
+    3300104: ID111 3
+    3300106: ID111 4
+    3300108: ID111 5
+    3300110: ID111 6
+    3300112: ID111 7
+    3300114: ID111 8
+    3300116: ID148
+    3300118: ID148 1
+    3300120: ID148 2
+    3300122: ID148 3
+    3300124: ID148 4
+    3300126: ID180
+    3300128: ID180 1
+    3300130: ID180 2
+    3300132: ID180 3
+    3300134: ID180 4
+    3300136: ID180 5
+    3300138: ID180 6
+    3300140: ID200
+    3300142: ID200 1
+    3300144: ID200 2
+    3300146: ID200 3
+    3300148: ID227
+    3300150: ID274
+    3300152: ID282
+    3300154: ID29
+    3300156: ID29 1
+    3300158: ID29 2
+    3300160: ID29 3
+    3300162: ID292
+    3300164: ID300
+    3300166: ID308
+    3300168: ID321
+    3300170: ID356
+    3300172: ID54
+    3300174: ID54 1
+    3300176: ID54 10
+    3300178: ID54 11
+    3300180: ID54 2
+    3300182: ID54 3
+    3300184: ID54 4
+    3300186: ID54 5
+    3300188: ID54 6
+    3300190: ID54 7
+    3300192: ID54 8
+    3300194: ID54 9
+    3300196: ID85
+    3300198: ID85 1
+    3300200: Notepaper
+    3300202: Notepaper_-_Writing
+    4300000: Book_2_5
+    4300002: ID29
+    4300004: Book_2_6
+    4300006: ID54
+    4300008: Book_2_8
+    4300010: ID85
+    4300012: Book_2_7
+    4300014: ID111
+    4300016: Book_2_8
+    4300018: ID148
+    4300020: Book_2_3
+    4300022: ID180
+    4300024: Book_2_3
+    4300026: ID200
+    4300028: Book_2_5
+    4300030: ID227
+    4300032: Notepaper
+    4300034: Book_-_Open
+    4300036: ID274
+    4300038: ID282
+    4300040: ID292
+    4300042: ID300
+    4300044: ID308
+    4300046: ID321
+    4300048: Notepaper_-_Writing
+    4300050: File_Folder_-_Open
+    4300052: ID356
+    4300054: Document
+    4300056: File_Folder_-_Shut
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

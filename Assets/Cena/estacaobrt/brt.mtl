@@ -1,0 +1,134 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Aluminum
+Ka 0.000000 0.000000 0.000000
+Kd 0.701961 0.701961 0.701961
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/Aluminum.jpg
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl Metal_Corrogated_Shiny
+Ka 0.000000 0.000000 0.000000
+Kd 0.756863 0.756863 0.756863
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/Metal_Corrogated_Shiny.jpg
+
+newmtl Metal_Corrugated_Shiny
+Ka 0.000000 0.000000 0.000000
+Kd 0.756863 0.756863 0.756863
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/Metal_Corrugated_Shiny.jpg
+
+newmtl Cladding_Stucco_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.784314 0.784314 0.784314
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/Cladding_Stucco_White.jpg
+
+newmtl Translucent_Glass_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.501961 0.501961 0.501961
+Ks 0.330000 0.330000 0.330000
+d 0.500000
+
+newmtl tijolobrt
+Ka 0.000000 0.000000 0.000000
+Kd 0.611765 0.498039 0.309804
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/tijolobrt.jpg
+
+newmtl Metal_Steel_Textured_White
+Ka 0.000000 0.000000 0.000000
+Kd 0.749020 0.749020 0.749020
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/Metal_Steel_Textured_White.jpg
+
+newmtl paredeamarela
+Ka 0.000000 0.000000 0.000000
+Kd 0.843137 0.725490 0.411765
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/paredeamarela.jpg
+
+newmtl _Concrete_Block_8x8_Gray_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.615686 0.619608 0.603922
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/_Concrete_Block_8x8_Gray_1.jpg
+
+newmtl _Metal_Aluminum_Anodized_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.792157 0.819608 0.858824
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/_Metal_Aluminum_Anodized_1.jpg
+
+newmtl Concrete_Form_4x8
+Ka 0.000000 0.000000 0.000000
+Kd 0.654902 0.666667 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/Concrete_Form_4x8.jpg
+
+newmtl Color_D08
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.678431 0.317647
+Ks 0.330000 0.330000 0.330000
+
+newmtl Sketchy_Stone_Ashlar
+Ka 0.000000 0.000000 0.000000
+Kd 0.658824 0.658824 0.658824
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/Sketchy_Stone_Ashlar.jpg
+
+newmtl paredeamarela2
+Ka 0.000000 0.000000 0.000000
+Kd 0.752941 0.643137 0.403922
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/paredeamarela2.jpg
+
+newmtl Translucent_Glass_Sky_Reflection
+Ka 0.000000 0.000000 0.000000
+Kd 0.486275 0.541176 0.709804
+Ks 0.330000 0.330000 0.330000
+d 0.520000
+map_Kd brt/Translucent_Glass_Sky_Reflection.jpg
+
+newmtl _Concrete_Aggregate_Smoke_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.603922 0.588235 0.580392
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/_Concrete_Aggregate_Smoke_1.jpg
+
+newmtl _Asphalt_New_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.262745 0.235294 0.243137
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/_Asphalt_New_1.jpg
+
+newmtl Stone_Pavers_Flagstone_Gray
+Ka 0.000000 0.000000 0.000000
+Kd 0.635294 0.635294 0.635294
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/Stone_Pavers_Flagstone_Gray.jpg
+
+newmtl Color_007
+Ka 0.000000 0.000000 0.000000
+Kd 0.227451 0.227451 0.227451
+Ks 0.330000 0.330000 0.330000
+
+newmtl carpeteazul
+Ka 0.000000 0.000000 0.000000
+Kd 0.164706 0.247059 0.364706
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/carpeteazul.jpg
+
+newmtl madeiraporta
+Ka 0.000000 0.000000 0.000000
+Kd 0.705882 0.372549 0.121569
+Ks 0.330000 0.330000 0.330000
+map_Kd brt/madeiraporta.jpg
+

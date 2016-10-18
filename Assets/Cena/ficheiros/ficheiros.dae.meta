@@ -1,0 +1,336 @@
+fileFormatVersion: 2
+guid: 072021ffda6150141806312a74c52430
+timeCreated: 1476449698
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: boite_archive
+    100002: double
+    100004: double 1
+    100006: feuillets
+    100008: feuillets 1
+    100010: feuillets 2
+    100012: feuillets 3
+    100014: feuillets 4
+    100016: feuillets 5
+    100018: feuillets 6
+    100020: //RootNode
+    100022: group_0
+    100024: ID110
+    100026: ID116
+    100028: ID122
+    100030: ID144
+    100032: ID150
+    100034: ID19
+    100036: ID19 1
+    100038: ID19 2
+    100040: ID19 3
+    100042: ID32
+    100044: ID32 1
+    100046: ID32 2
+    100048: ID32 3
+    100050: ID52
+    100052: ID52 1
+    100054: ID58
+    100056: ID58 1
+    100058: ID66
+    100060: ID66 1
+    100062: ID84
+    100064: ID84 1
+    100066: ID84 2
+    100068: ID84 3
+    100070: ID84 4
+    100072: ID84 5
+    100074: ID84 6
+    100076: ID90
+    100078: ID90 1
+    100080: ID90 2
+    100082: ID90 3
+    100084: ID90 4
+    100086: ID90 5
+    100088: ID90 6
+    100090: ID96
+    100092: ID96 1
+    100094: ID96 2
+    100096: ID96 3
+    100098: ID96 4
+    100100: ID96 5
+    100102: ID96 6
+    100104: instance_0
+    100106: instance_1
+    100108: instance_10
+    100110: instance_11
+    100112: instance_12
+    100114: instance_13
+    100116: instance_2
+    100118: instance_3
+    100120: instance_4
+    100122: instance_5
+    100124: instance_6
+    100126: instance_7
+    100128: instance_8
+    100130: instance_9
+    100132: Last Saved SketchUp View
+    100134: Livre
+    100136: Livre 1
+    100138: Livre 2
+    100140: Livre 3
+    400000: boite_archive
+    400002: double
+    400004: double 1
+    400006: feuillets
+    400008: feuillets 1
+    400010: feuillets 2
+    400012: feuillets 3
+    400014: feuillets 4
+    400016: feuillets 5
+    400018: feuillets 6
+    400020: //RootNode
+    400022: group_0
+    400024: ID110
+    400026: ID116
+    400028: ID122
+    400030: ID144
+    400032: ID150
+    400034: ID19
+    400036: ID19 1
+    400038: ID19 2
+    400040: ID19 3
+    400042: ID32
+    400044: ID32 1
+    400046: ID32 2
+    400048: ID32 3
+    400050: ID52
+    400052: ID52 1
+    400054: ID58
+    400056: ID58 1
+    400058: ID66
+    400060: ID66 1
+    400062: ID84
+    400064: ID84 1
+    400066: ID84 2
+    400068: ID84 3
+    400070: ID84 4
+    400072: ID84 5
+    400074: ID84 6
+    400076: ID90
+    400078: ID90 1
+    400080: ID90 2
+    400082: ID90 3
+    400084: ID90 4
+    400086: ID90 5
+    400088: ID90 6
+    400090: ID96
+    400092: ID96 1
+    400094: ID96 2
+    400096: ID96 3
+    400098: ID96 4
+    400100: ID96 5
+    400102: ID96 6
+    400104: instance_0
+    400106: instance_1
+    400108: instance_10
+    400110: instance_11
+    400112: instance_12
+    400114: instance_13
+    400116: instance_2
+    400118: instance_3
+    400120: instance_4
+    400122: instance_5
+    400124: instance_6
+    400126: instance_7
+    400128: instance_8
+    400130: instance_9
+    400132: Last Saved SketchUp View
+    400134: Livre
+    400136: Livre 1
+    400138: Livre 2
+    400140: Livre 3
+    2300000: boite_archive
+    2300002: double
+    2300004: double 1
+    2300006: feuillets
+    2300008: feuillets 1
+    2300010: feuillets 2
+    2300012: feuillets 3
+    2300014: feuillets 4
+    2300016: feuillets 5
+    2300018: feuillets 6
+    2300020: //RootNode
+    2300022: ID110
+    2300024: ID116
+    2300026: ID122
+    2300028: ID144
+    2300030: ID150
+    2300032: ID19
+    2300034: ID19 1
+    2300036: ID19 2
+    2300038: ID19 3
+    2300040: ID32
+    2300042: ID32 1
+    2300044: ID32 2
+    2300046: ID32 3
+    2300048: ID52
+    2300050: ID52 1
+    2300052: ID58
+    2300054: ID58 1
+    2300056: ID66
+    2300058: ID66 1
+    2300060: ID84
+    2300062: ID84 1
+    2300064: ID84 2
+    2300066: ID84 3
+    2300068: ID84 4
+    2300070: ID84 5
+    2300072: ID84 6
+    2300074: ID90
+    2300076: ID90 1
+    2300078: ID90 2
+    2300080: ID90 3
+    2300082: ID90 4
+    2300084: ID90 5
+    2300086: ID90 6
+    2300088: ID96
+    2300090: ID96 1
+    2300092: ID96 2
+    2300094: ID96 3
+    2300096: ID96 4
+    2300098: ID96 5
+    2300100: ID96 6
+    2300102: Livre
+    2300104: Livre 1
+    2300106: Livre 2
+    2300108: Livre 3
+    3300000: boite_archive
+    3300002: double
+    3300004: double 1
+    3300006: feuillets
+    3300008: feuillets 1
+    3300010: feuillets 2
+    3300012: feuillets 3
+    3300014: feuillets 4
+    3300016: feuillets 5
+    3300018: feuillets 6
+    3300020: //RootNode
+    3300022: ID110
+    3300024: ID116
+    3300026: ID122
+    3300028: ID144
+    3300030: ID150
+    3300032: ID19
+    3300034: ID19 1
+    3300036: ID19 2
+    3300038: ID19 3
+    3300040: ID32
+    3300042: ID32 1
+    3300044: ID32 2
+    3300046: ID32 3
+    3300048: ID52
+    3300050: ID52 1
+    3300052: ID58
+    3300054: ID58 1
+    3300056: ID66
+    3300058: ID66 1
+    3300060: ID84
+    3300062: ID84 1
+    3300064: ID84 2
+    3300066: ID84 3
+    3300068: ID84 4
+    3300070: ID84 5
+    3300072: ID84 6
+    3300074: ID90
+    3300076: ID90 1
+    3300078: ID90 2
+    3300080: ID90 3
+    3300082: ID90 4
+    3300084: ID90 5
+    3300086: ID90 6
+    3300088: ID96
+    3300090: ID96 1
+    3300092: ID96 2
+    3300094: ID96 3
+    3300096: ID96 4
+    3300098: ID96 5
+    3300100: ID96 6
+    3300102: Livre
+    3300104: Livre 1
+    3300106: Livre 2
+    3300108: Livre 3
+    4300000: SketchUp
+    4300002: ID144
+    4300004: ID150
+    4300006: Livre
+    4300008: ID19
+    4300010: ID32
+    4300012: double
+    4300014: ID52
+    4300016: ID58
+    4300018: ID66
+    4300020: feuillets
+    4300022: ID84
+    4300024: ID90
+    4300026: ID96
+    4300028: boite_archive
+    4300030: ID110
+    4300032: ID116
+    4300034: ID122
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

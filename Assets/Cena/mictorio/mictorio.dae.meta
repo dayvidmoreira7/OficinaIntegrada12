@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 733b5dc060288de45bf3c6516fa28e53
+timeCreated: 1476705159
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: group_0
+    100002: group_1
+    100004: group_2
+    100006: group_2 1
+    100008: group_2 2
+    100010: group_3
+    100012: group_3 1
+    100014: group_3 2
+    100016: group_4
+    100018: group_4 1
+    100020: group_4 2
+    100022: group_5
+    100024: group_5 1
+    100026: group_5 2
+    100028: group_6
+    100030: group_6 1
+    100032: group_6 2
+    100034: ID104
+    100036: ID104 1
+    100038: ID104 2
+    100040: ID110
+    100042: ID110 1
+    100044: ID110 2
+    100046: ID116
+    100048: ID116 1
+    100050: ID116 2
+    100052: ID122
+    100054: ID122 1
+    100056: ID122 2
+    100058: ID128
+    100060: ID128 1
+    100062: ID128 2
+    100064: ID134
+    100066: ID134 1
+    100068: ID134 2
+    100070: ID150
+    100072: ID150 1
+    100074: ID150 2
+    100076: ID156
+    100078: ID156 1
+    100080: ID156 2
+    100082: ID162
+    100084: ID162 1
+    100086: ID162 2
+    100088: ID168
+    100090: ID168 1
+    100092: ID168 2
+    100094: ID174
+    100096: ID174 1
+    100098: ID174 2
+    100100: ID25
+    100102: ID46
+    100104: ID54
+    100106: ID92
+    100108: ID92 1
+    100110: ID92 2
+    100112: ID98
+    100114: ID98 1
+    100116: ID98 2
+    100118: instance_0
+    100120: instance_1
+    100122: instance_2
+    100124: Last Saved SketchUp View
+    100126: //RootNode
+    100128: Urinol_ou_mictorio
+    100130: Urinol_ou_mictorio 1
+    100132: Urinol_ou_mictorio 2
+    400000: group_0
+    400002: group_1
+    400004: group_2
+    400006: group_2 1
+    400008: group_2 2
+    400010: group_3
+    400012: group_3 1
+    400014: group_3 2
+    400016: group_4
+    400018: group_4 1
+    400020: group_4 2
+    400022: group_5
+    400024: group_5 1
+    400026: group_5 2
+    400028: group_6
+    400030: group_6 1
+    400032: group_6 2
+    400034: ID104
+    400036: ID104 1
+    400038: ID104 2
+    400040: ID110
+    400042: ID110 1
+    400044: ID110 2
+    400046: ID116
+    400048: ID116 1
+    400050: ID116 2
+    400052: ID122
+    400054: ID122 1
+    400056: ID122 2
+    400058: ID128
+    400060: ID128 1
+    400062: ID128 2
+    400064: ID134
+    400066: ID134 1
+    400068: ID134 2
+    400070: ID150
+    400072: ID150 1
+    400074: ID150 2
+    400076: ID156
+    400078: ID156 1
+    400080: ID156 2
+    400082: ID162
+    400084: ID162 1
+    400086: ID162 2
+    400088: ID168
+    400090: ID168 1
+    400092: ID168 2
+    400094: ID174
+    400096: ID174 1
+    400098: ID174 2
+    400100: ID25
+    400102: ID46
+    400104: ID54
+    400106: ID92
+    400108: ID92 1
+    400110: ID92 2
+    400112: ID98
+    400114: ID98 1
+    400116: ID98 2
+    400118: instance_0
+    400120: instance_1
+    400122: instance_2
+    400124: Last Saved SketchUp View
+    400126: //RootNode
+    400128: Urinol_ou_mictorio
+    400130: Urinol_ou_mictorio 1
+    400132: Urinol_ou_mictorio 2
+    2300000: group_0
+    2300002: group_1
+    2300004: group_2
+    2300006: group_2 1
+    2300008: group_2 2
+    2300010: group_3
+    2300012: group_3 1
+    2300014: group_3 2
+    2300016: group_4
+    2300018: group_4 1
+    2300020: group_4 2
+    2300022: group_5
+    2300024: group_5 1
+    2300026: group_5 2
+    2300028: group_6
+    2300030: group_6 1
+    2300032: group_6 2
+    2300034: ID104
+    2300036: ID104 1
+    2300038: ID104 2
+    2300040: ID110
+    2300042: ID110 1
+    2300044: ID110 2
+    2300046: ID116
+    2300048: ID116 1
+    2300050: ID116 2
+    2300052: ID122
+    2300054: ID122 1
+    2300056: ID122 2
+    2300058: ID128
+    2300060: ID128 1
+    2300062: ID128 2
+    2300064: ID134
+    2300066: ID134 1
+    2300068: ID134 2
+    2300070: ID150
+    2300072: ID150 1
+    2300074: ID150 2
+    2300076: ID156
+    2300078: ID156 1
+    2300080: ID156 2
+    2300082: ID162
+    2300084: ID162 1
+    2300086: ID162 2
+    2300088: ID168
+    2300090: ID168 1
+    2300092: ID168 2
+    2300094: ID174
+    2300096: ID174 1
+    2300098: ID174 2
+    2300100: ID25
+    2300102: ID46
+    2300104: ID54
+    2300106: ID92
+    2300108: ID92 1
+    2300110: ID92 2
+    2300112: ID98
+    2300114: ID98 1
+    2300116: ID98 2
+    3300000: group_0
+    3300002: group_1
+    3300004: group_2
+    3300006: group_2 1
+    3300008: group_2 2
+    3300010: group_3
+    3300012: group_3 1
+    3300014: group_3 2
+    3300016: group_4
+    3300018: group_4 1
+    3300020: group_4 2
+    3300022: group_5
+    3300024: group_5 1
+    3300026: group_5 2
+    3300028: group_6
+    3300030: group_6 1
+    3300032: group_6 2
+    3300034: ID104
+    3300036: ID104 1
+    3300038: ID104 2
+    3300040: ID110
+    3300042: ID110 1
+    3300044: ID110 2
+    3300046: ID116
+    3300048: ID116 1
+    3300050: ID116 2
+    3300052: ID122
+    3300054: ID122 1
+    3300056: ID122 2
+    3300058: ID128
+    3300060: ID128 1
+    3300062: ID128 2
+    3300064: ID134
+    3300066: ID134 1
+    3300068: ID134 2
+    3300070: ID150
+    3300072: ID150 1
+    3300074: ID150 2
+    3300076: ID156
+    3300078: ID156 1
+    3300080: ID156 2
+    3300082: ID162
+    3300084: ID162 1
+    3300086: ID162 2
+    3300088: ID168
+    3300090: ID168 1
+    3300092: ID168 2
+    3300094: ID174
+    3300096: ID174 1
+    3300098: ID174 2
+    3300100: ID25
+    3300102: ID46
+    3300104: ID54
+    3300106: ID92
+    3300108: ID92 1
+    3300110: ID92 2
+    3300112: ID98
+    3300114: ID98 1
+    3300116: ID98 2
+    4300000: group_0
+    4300002: ID25
+    4300004: group_1
+    4300006: ID46
+    4300008: ID54
+    4300010: group_2
+    4300012: ID92
+    4300014: ID98
+    4300016: ID104
+    4300018: ID110
+    4300020: ID116
+    4300022: ID122
+    4300024: ID128
+    4300026: ID134
+    4300028: group_3
+    4300030: group_4
+    4300032: group_5
+    4300034: group_6
+    4300036: ID150
+    4300038: ID156
+    4300040: ID162
+    4300042: ID168
+    4300044: ID174
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
