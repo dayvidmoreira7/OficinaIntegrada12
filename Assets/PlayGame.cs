@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayGame : MonoBehaviour {
 
 	public GameObject canvasMenu;
-	public GameObject camera;
+	public GameObject menuCam;
 	public GameObject player;
 
 	bool playing = false;
@@ -26,14 +26,14 @@ public class PlayGame : MonoBehaviour {
 		if(toPlay > 5f)
 		{
 			player.SetActive(true);
-			Destroy(camera.gameObject);
+			Destroy(menuCam.gameObject);
 		}
 	}
 
 	public void play()
 	{
+		menuCam.GetComponent<Animator> ().SetBool ("play", true);
 		playing = true;
-		camera.GetComponent<Animator> ().SetBool ("play", true);
 	}
 
 	IEnumerator fadeOut()
