@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: c5a87aa3023ade34f8ce64f2a8942986
+timeCreated: 1477041449
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Component_1
+    100002: Component_1 1
+    100004: Component_2
+    100006: Component_2 1
+    100008: Component_2 2
+    100010: Component_2 3
+    100012: Component_2 4
+    100014: Component_2 5
+    100016: fork
+    100018: ID154
+    100020: ID164
+    100022: ID38
+    100024: ID42
+    100026: ID46
+    100028: ID50
+    100030: ID54
+    100032: ID58
+    100034: ID62
+    100036: ID66
+    100038: ID70
+    100040: ID74
+    100042: ID78
+    100044: ID82
+    100046: instance_0
+    100048: instance_1
+    100050: instance_10
+    100052: instance_11
+    100054: instance_12
+    100056: instance_13
+    100058: instance_14
+    100060: instance_2
+    100062: instance_3
+    100064: instance_4
+    100066: instance_5
+    100068: instance_6
+    100070: instance_7
+    100072: instance_8
+    100074: instance_9
+    100076: ladle
+    100078: Last Saved SketchUp View
+    100080: skimmer
+    100082: spaghetti_
+    100084: spatula
+    100086: spoon
+    100088: utensil_ra
+    100090: //RootNode
+    400000: Component_1
+    400002: Component_1 1
+    400004: Component_2
+    400006: Component_2 1
+    400008: Component_2 2
+    400010: Component_2 3
+    400012: Component_2 4
+    400014: Component_2 5
+    400016: fork
+    400018: ID154
+    400020: ID164
+    400022: ID38
+    400024: ID42
+    400026: ID46
+    400028: ID50
+    400030: ID54
+    400032: ID58
+    400034: ID62
+    400036: ID66
+    400038: ID70
+    400040: ID74
+    400042: ID78
+    400044: ID82
+    400046: instance_0
+    400048: instance_1
+    400050: instance_10
+    400052: instance_11
+    400054: instance_12
+    400056: instance_13
+    400058: instance_14
+    400060: instance_2
+    400062: instance_3
+    400064: instance_4
+    400066: instance_5
+    400068: instance_6
+    400070: instance_7
+    400072: instance_8
+    400074: instance_9
+    400076: ladle
+    400078: Last Saved SketchUp View
+    400080: skimmer
+    400082: spaghetti_
+    400084: spatula
+    400086: spoon
+    400088: utensil_ra
+    400090: //RootNode
+    2300000: Component_1
+    2300002: Component_1 1
+    2300004: Component_2
+    2300006: Component_2 1
+    2300008: Component_2 2
+    2300010: Component_2 3
+    2300012: Component_2 4
+    2300014: Component_2 5
+    2300016: fork
+    2300018: ID154
+    2300020: ID164
+    2300022: ID38
+    2300024: ID42
+    2300026: ID46
+    2300028: ID50
+    2300030: ID54
+    2300032: ID58
+    2300034: ID62
+    2300036: ID66
+    2300038: ID70
+    2300040: ID74
+    2300042: ID78
+    2300044: ID82
+    2300046: ladle
+    2300048: skimmer
+    2300050: spaghetti_
+    2300052: spatula
+    2300054: spoon
+    2300056: utensil_ra
+    3300000: Component_1
+    3300002: Component_1 1
+    3300004: Component_2
+    3300006: Component_2 1
+    3300008: Component_2 2
+    3300010: Component_2 3
+    3300012: Component_2 4
+    3300014: Component_2 5
+    3300016: fork
+    3300018: ID154
+    3300020: ID164
+    3300022: ID38
+    3300024: ID42
+    3300026: ID46
+    3300028: ID50
+    3300030: ID54
+    3300032: ID58
+    3300034: ID62
+    3300036: ID66
+    3300038: ID70
+    3300040: ID74
+    3300042: ID78
+    3300044: ID82
+    3300046: ladle
+    3300048: skimmer
+    3300050: spaghetti_
+    3300052: spatula
+    3300054: spoon
+    3300056: utensil_ra
+    4300000: fork
+    4300002: ladle
+    4300004: skimmer
+    4300006: ID38
+    4300008: ID42
+    4300010: ID46
+    4300012: ID50
+    4300014: ID54
+    4300016: ID58
+    4300018: ID62
+    4300020: ID66
+    4300022: ID70
+    4300024: ID74
+    4300026: ID78
+    4300028: ID82
+    4300030: spaghetti_
+    4300032: spatula
+    4300034: spoon
+    4300036: utensil_ra
+    4300038: ID154
+    4300040: ID164
+    4300042: Component_1
+    4300044: Component_2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

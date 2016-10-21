@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 1ea6a2c940d941f43bae6db318a895cc
+timeCreated: 1476959310
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ID114
+    100004: ID122
+    100006: ID130
+    100008: ID138
+    100010: ID14
+    100012: ID14 1
+    100014: ID14 2
+    100016: ID14 3
+    100018: ID14 4
+    100020: ID14 5
+    100022: ID14 6
+    100024: ID14 7
+    100026: ID14 8
+    100028: ID146
+    100030: ID154
+    100032: ID162
+    100034: ID170
+    100036: ID178
+    100038: ID186
+    100040: ID194
+    100042: ID202
+    100044: ID210
+    100046: ID218
+    100048: ID22
+    100050: ID22 1
+    100052: ID22 2
+    100054: ID22 3
+    100056: ID22 4
+    100058: ID22 5
+    100060: ID22 6
+    100062: ID22 7
+    100064: ID22 8
+    100066: ID37
+    100068: ID37 1
+    100070: ID37 2
+    100072: ID37 3
+    100074: ID37 4
+    100076: ID37 5
+    100078: ID37 6
+    100080: ID37 7
+    100082: ID37 8
+    100084: ID43
+    100086: ID43 1
+    100088: ID43 2
+    100090: ID43 3
+    100092: ID43 4
+    100094: ID43 5
+    100096: ID43 6
+    100098: ID43 7
+    100100: ID43 8
+    100102: ID49
+    100104: ID49 1
+    100106: ID49 2
+    100108: ID49 3
+    100110: ID49 4
+    100112: ID49 5
+    100114: ID49 6
+    100116: ID49 7
+    100118: ID49 8
+    100120: ID62
+    100122: ID62 1
+    100124: ID62 2
+    100126: ID62 3
+    100128: ID62 4
+    100130: ID62 5
+    100132: ID62 6
+    100134: ID62 7
+    100136: ID62 8
+    100138: ID70
+    100140: ID70 1
+    100142: ID70 2
+    100144: ID70 3
+    100146: ID70 4
+    100148: ID70 5
+    100150: ID70 6
+    100152: ID70 7
+    100154: ID70 8
+    100156: instance_0
+    100158: instance_1
+    100160: instance_10
+    100162: instance_11
+    100164: instance_12
+    100166: instance_2
+    100168: instance_3
+    100170: instance_4
+    100172: instance_5
+    100174: instance_6
+    100176: instance_7
+    100178: instance_8
+    100180: instance_9
+    100182: KE_LEG_TAPERED_SQUARE
+    100184: KE_LEG_TAPERED_SQUARE 1
+    100186: KE_LEG_TAPERED_SQUARE 2
+    100188: KE_LEG_TAPERED_SQUARE 3
+    100190: KE_LIGHT_HEAT
+    100192: KE_LIGHT_HEAT 1
+    100194: KE_LIGHT_HEAT 2
+    100196: KE_LIGHT_HEAT 3
+    100198: KE_LIGHT_HEAT 4
+    100200: KE_LIGHT_HEAT 5
+    100202: KE_LIGHT_HEAT 6
+    100204: KE_LIGHT_HEAT 7
+    100206: KE_LIGHT_HEAT 8
+    100208: Last Saved SketchUp View
+    400000: //RootNode
+    400002: ID114
+    400004: ID122
+    400006: ID130
+    400008: ID138
+    400010: ID14
+    400012: ID14 1
+    400014: ID14 2
+    400016: ID14 3
+    400018: ID14 4
+    400020: ID14 5
+    400022: ID14 6
+    400024: ID14 7
+    400026: ID14 8
+    400028: ID146
+    400030: ID154
+    400032: ID162
+    400034: ID170
+    400036: ID178
+    400038: ID186
+    400040: ID194
+    400042: ID202
+    400044: ID210
+    400046: ID218
+    400048: ID22
+    400050: ID22 1
+    400052: ID22 2
+    400054: ID22 3
+    400056: ID22 4
+    400058: ID22 5
+    400060: ID22 6
+    400062: ID22 7
+    400064: ID22 8
+    400066: ID37
+    400068: ID37 1
+    400070: ID37 2
+    400072: ID37 3
+    400074: ID37 4
+    400076: ID37 5
+    400078: ID37 6
+    400080: ID37 7
+    400082: ID37 8
+    400084: ID43
+    400086: ID43 1
+    400088: ID43 2
+    400090: ID43 3
+    400092: ID43 4
+    400094: ID43 5
+    400096: ID43 6
+    400098: ID43 7
+    400100: ID43 8
+    400102: ID49
+    400104: ID49 1
+    400106: ID49 2
+    400108: ID49 3
+    400110: ID49 4
+    400112: ID49 5
+    400114: ID49 6
+    400116: ID49 7
+    400118: ID49 8
+    400120: ID62
+    400122: ID62 1
+    400124: ID62 2
+    400126: ID62 3
+    400128: ID62 4
+    400130: ID62 5
+    400132: ID62 6
+    400134: ID62 7
+    400136: ID62 8
+    400138: ID70
+    400140: ID70 1
+    400142: ID70 2
+    400144: ID70 3
+    400146: ID70 4
+    400148: ID70 5
+    400150: ID70 6
+    400152: ID70 7
+    400154: ID70 8
+    400156: instance_0
+    400158: instance_1
+    400160: instance_10
+    400162: instance_11
+    400164: instance_12
+    400166: instance_2
+    400168: instance_3
+    400170: instance_4
+    400172: instance_5
+    400174: instance_6
+    400176: instance_7
+    400178: instance_8
+    400180: instance_9
+    400182: KE_LEG_TAPERED_SQUARE
+    400184: KE_LEG_TAPERED_SQUARE 1
+    400186: KE_LEG_TAPERED_SQUARE 2
+    400188: KE_LEG_TAPERED_SQUARE 3
+    400190: KE_LIGHT_HEAT
+    400192: KE_LIGHT_HEAT 1
+    400194: KE_LIGHT_HEAT 2
+    400196: KE_LIGHT_HEAT 3
+    400198: KE_LIGHT_HEAT 4
+    400200: KE_LIGHT_HEAT 5
+    400202: KE_LIGHT_HEAT 6
+    400204: KE_LIGHT_HEAT 7
+    400206: KE_LIGHT_HEAT 8
+    400208: Last Saved SketchUp View
+    2300000: //RootNode
+    2300002: ID114
+    2300004: ID122
+    2300006: ID130
+    2300008: ID138
+    2300010: ID14
+    2300012: ID14 1
+    2300014: ID14 2
+    2300016: ID14 3
+    2300018: ID14 4
+    2300020: ID14 5
+    2300022: ID14 6
+    2300024: ID14 7
+    2300026: ID14 8
+    2300028: ID146
+    2300030: ID154
+    2300032: ID162
+    2300034: ID170
+    2300036: ID178
+    2300038: ID186
+    2300040: ID194
+    2300042: ID202
+    2300044: ID210
+    2300046: ID218
+    2300048: ID22
+    2300050: ID22 1
+    2300052: ID22 2
+    2300054: ID22 3
+    2300056: ID22 4
+    2300058: ID22 5
+    2300060: ID22 6
+    2300062: ID22 7
+    2300064: ID22 8
+    2300066: ID37
+    2300068: ID37 1
+    2300070: ID37 2
+    2300072: ID37 3
+    2300074: ID37 4
+    2300076: ID37 5
+    2300078: ID37 6
+    2300080: ID37 7
+    2300082: ID37 8
+    2300084: ID43
+    2300086: ID43 1
+    2300088: ID43 2
+    2300090: ID43 3
+    2300092: ID43 4
+    2300094: ID43 5
+    2300096: ID43 6
+    2300098: ID43 7
+    2300100: ID43 8
+    2300102: ID49
+    2300104: ID49 1
+    2300106: ID49 2
+    2300108: ID49 3
+    2300110: ID49 4
+    2300112: ID49 5
+    2300114: ID49 6
+    2300116: ID49 7
+    2300118: ID49 8
+    2300120: ID62
+    2300122: ID62 1
+    2300124: ID62 2
+    2300126: ID62 3
+    2300128: ID62 4
+    2300130: ID62 5
+    2300132: ID62 6
+    2300134: ID62 7
+    2300136: ID62 8
+    2300138: ID70
+    2300140: ID70 1
+    2300142: ID70 2
+    2300144: ID70 3
+    2300146: ID70 4
+    2300148: ID70 5
+    2300150: ID70 6
+    2300152: ID70 7
+    2300154: ID70 8
+    2300156: KE_LEG_TAPERED_SQUARE
+    2300158: KE_LEG_TAPERED_SQUARE 1
+    2300160: KE_LEG_TAPERED_SQUARE 2
+    2300162: KE_LEG_TAPERED_SQUARE 3
+    2300164: KE_LIGHT_HEAT
+    2300166: KE_LIGHT_HEAT 1
+    2300168: KE_LIGHT_HEAT 2
+    2300170: KE_LIGHT_HEAT 3
+    2300172: KE_LIGHT_HEAT 4
+    2300174: KE_LIGHT_HEAT 5
+    2300176: KE_LIGHT_HEAT 6
+    2300178: KE_LIGHT_HEAT 7
+    2300180: KE_LIGHT_HEAT 8
+    3300000: //RootNode
+    3300002: ID114
+    3300004: ID122
+    3300006: ID130
+    3300008: ID138
+    3300010: ID14
+    3300012: ID14 1
+    3300014: ID14 2
+    3300016: ID14 3
+    3300018: ID14 4
+    3300020: ID14 5
+    3300022: ID14 6
+    3300024: ID14 7
+    3300026: ID14 8
+    3300028: ID146
+    3300030: ID154
+    3300032: ID162
+    3300034: ID170
+    3300036: ID178
+    3300038: ID186
+    3300040: ID194
+    3300042: ID202
+    3300044: ID210
+    3300046: ID218
+    3300048: ID22
+    3300050: ID22 1
+    3300052: ID22 2
+    3300054: ID22 3
+    3300056: ID22 4
+    3300058: ID22 5
+    3300060: ID22 6
+    3300062: ID22 7
+    3300064: ID22 8
+    3300066: ID37
+    3300068: ID37 1
+    3300070: ID37 2
+    3300072: ID37 3
+    3300074: ID37 4
+    3300076: ID37 5
+    3300078: ID37 6
+    3300080: ID37 7
+    3300082: ID37 8
+    3300084: ID43
+    3300086: ID43 1
+    3300088: ID43 2
+    3300090: ID43 3
+    3300092: ID43 4
+    3300094: ID43 5
+    3300096: ID43 6
+    3300098: ID43 7
+    3300100: ID43 8
+    3300102: ID49
+    3300104: ID49 1
+    3300106: ID49 2
+    3300108: ID49 3
+    3300110: ID49 4
+    3300112: ID49 5
+    3300114: ID49 6
+    3300116: ID49 7
+    3300118: ID49 8
+    3300120: ID62
+    3300122: ID62 1
+    3300124: ID62 2
+    3300126: ID62 3
+    3300128: ID62 4
+    3300130: ID62 5
+    3300132: ID62 6
+    3300134: ID62 7
+    3300136: ID62 8
+    3300138: ID70
+    3300140: ID70 1
+    3300142: ID70 2
+    3300144: ID70 3
+    3300146: ID70 4
+    3300148: ID70 5
+    3300150: ID70 6
+    3300152: ID70 7
+    3300154: ID70 8
+    3300156: KE_LEG_TAPERED_SQUARE
+    3300158: KE_LEG_TAPERED_SQUARE 1
+    3300160: KE_LEG_TAPERED_SQUARE 2
+    3300162: KE_LEG_TAPERED_SQUARE 3
+    3300164: KE_LIGHT_HEAT
+    3300166: KE_LIGHT_HEAT 1
+    3300168: KE_LIGHT_HEAT 2
+    3300170: KE_LIGHT_HEAT 3
+    3300172: KE_LIGHT_HEAT 4
+    3300174: KE_LIGHT_HEAT 5
+    3300176: KE_LIGHT_HEAT 6
+    3300178: KE_LIGHT_HEAT 7
+    3300180: KE_LIGHT_HEAT 8
+    4300000: SketchUp
+    4300002: ID114
+    4300004: ID122
+    4300006: ID130
+    4300008: ID138
+    4300010: ID146
+    4300012: ID154
+    4300014: ID162
+    4300016: ID170
+    4300018: ID178
+    4300020: ID186
+    4300022: ID194
+    4300024: ID202
+    4300026: ID210
+    4300028: ID218
+    4300030: KE_LIGHT_HEAT
+    4300032: ID14
+    4300034: ID22
+    4300036: ID37
+    4300038: ID43
+    4300040: ID49
+    4300042: ID62
+    4300044: ID70
+    4300046: KE_LEG_TAPERED_SQUARE
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
