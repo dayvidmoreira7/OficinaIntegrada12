@@ -53,6 +53,7 @@ public class HeadMove : MonoBehaviour {
 			gameObject.GetComponent<Rigidbody>().AddForceAtPosition(Vector3.forward * 880f, transform.position);
 			mesh.GetComponent<AudioSource>().enabled = true;
 			lanternaLuz.GetComponent<OnOff>().power = false;
+			gameObject.GetComponent<HeadMove>().enabled = false;
 		}
 		
 	}
