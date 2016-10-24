@@ -93,11 +93,11 @@ public class Scenes : MonoBehaviour {
 
 		if(col.name == "AparecerItens")
 		{
-			escola = true;
+			itens = true;
 		}
 		if(col.name == "SumirItens")
 		{
-			escola = false;
+			itens = false;
 		}
 	}
 }
