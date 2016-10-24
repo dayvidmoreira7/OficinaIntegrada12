@@ -9,7 +9,7 @@ public class Empurrar : MonoBehaviour {
 	bool prontoPraEmpurrar = false;
 
 	void Start () {
-	
+		rb = GetComponent<Rigidbody> ();
 	}
 
 
@@ -17,6 +17,7 @@ public class Empurrar : MonoBehaviour {
 	{
 		if(prontoPraEmpurrar && Input.GetKeyDown(KeyCode.E))
 		{
+			rb.AddForceAtPosition(Vector3.back * 300f, transform.position);
 			prontoPraEmpurrar = false;
 			GetComponent<Empurrar>().enabled = false;
 		}
