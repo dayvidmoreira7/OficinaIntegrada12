@@ -53,14 +53,14 @@ public class Pilhas : MonoBehaviour {
 
 		if(contagemTxt)
 		{
-			aparecerTxt += 1f * Time.deltaTime;
 			maxText.GetComponent<Text>().enabled = true;
+			aparecerTxt += 1f * Time.deltaTime;
 		}
 		else
 		{
 			maxText.GetComponent<Text>().enabled = false;
 		}
-		if(aparecerTxt > 1)
+		if(aparecerTxt > 2f)
 		{
 			contagemTxt = false;
 			aparecerTxt = 0f;

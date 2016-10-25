@@ -6,8 +6,10 @@ public class Pickable : MonoBehaviour {
 	public GameObject Txt;
 	public GameObject Txt1;
 	public GameObject playerHand;
-	public GameObject panel, panel1;
-	public GameObject imgPanel1;
+	public GameObject panel; //panel1;
+//	public GameObject imgPanel1;
+
+	public Material batteryMat;
 
 	public bool onHand = false;
 	public bool readyToPick = false;
@@ -54,8 +56,6 @@ public class Pickable : MonoBehaviour {
 		if(onHand)
 		{
 			panel.SetActive(true);
-			panel1.SetActive(true);
-			imgPanel1.SetActive(false);
 
 			this.transform.parent = GameObject.Find("FPSController").transform;
 			this.transform.parent = GameObject.Find("FirstPersonCharacter").transform;
@@ -63,6 +63,7 @@ public class Pickable : MonoBehaviour {
 			this.transform.rotation = playerHand.GetComponent<Transform>().rotation;
 			gameObject.GetComponent<Rigidbody>().useGravity = false;
 			gameObject.GetComponent<BoxCollider>().enabled = false;
+
 			if(Txt1Desappear < 80f)
 			{
 				txt1Appear = true;
@@ -70,7 +71,17 @@ public class Pickable : MonoBehaviour {
 			else
 			{
 				txt1Appear = false;
+				batteryMat.shader = Shader.Find("Unlit/Texture");
 			}
+		}
+
+		if(!onHand)
+		{
+			batteryMat.shader = Shader.Find("Standard");
+		}
+		else
+		{
+			batteryMat.shader = Shader.Find("Unlit/Texture");
 		}
 	}
 

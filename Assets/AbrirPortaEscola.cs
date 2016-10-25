@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class AbrirPortaEscola : MonoBehaviour {
@@ -9,7 +10,9 @@ public class AbrirPortaEscola : MonoBehaviour {
 	public GameObject myDoor2;
 	public bool open = false, readyToOpen, tocarAudio = false;
 	public float rotY1 = 0f, rotY2 = 0f;
-	
+
+	bool comChave = false;
+
 	void Start ()
 	{
 
@@ -19,9 +22,15 @@ public class AbrirPortaEscola : MonoBehaviour {
 	{	
 		if(readyToOpen)
 		{
-			if(Input.GetKeyDown(KeyCode.E) && !this.open)
+			if(Input.GetKeyDown(KeyCode.E) && !this.open && comChave)
 			{
 				this.open = true;
+				tocarAudio = true;
+				readyToOpen = false;
+			}
+			else if(Input.GetKeyDown(KeyCode.E) && !this.open && !comChave)
+			{
+			//	this.open = true;
 				tocarAudio = true;
 				readyToOpen = false;
 			}

@@ -7,6 +7,7 @@ public class Empurrar : MonoBehaviour {
 	Rigidbody rb;
 
 	bool prontoPraEmpurrar = false;
+	bool scriptAtivo = true;
 
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
@@ -17,18 +18,26 @@ public class Empurrar : MonoBehaviour {
 	{
 		if(prontoPraEmpurrar && Input.GetKeyDown(KeyCode.E))
 		{
-			rb.AddForceAtPosition(Vector3.back * 300f, transform.position);
+		//	rb.AddForceAtPosition(Vector3.back * 300f, transform.position);
+			rb.AddForce(Vector3.back * 5f, ForceMode.Impulse);
 			prontoPraEmpurrar = false;
+			scriptAtivo = false;
+		}
+
+		if(!scriptAtivo)
+		{
 			GetComponent<Empurrar>().enabled = false;
 		}
 	}
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(!prontoPraEmpurrar)
+		if (scriptAtivo) 
 		{
-			textEmpurrar.SetActive(true);
-			prontoPraEmpurrar = true;
+			if (!prontoPraEmpurrar) {
+				textEmpurrar.SetActive (true);
+				prontoPraEmpurrar = true;
+			}
 		}
 	}
 	
