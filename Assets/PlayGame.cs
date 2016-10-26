@@ -8,8 +8,10 @@ public class PlayGame : MonoBehaviour {
 	public GameObject player;
 
 	bool playing = false;
+	public bool jogando = false;
 
 	float toPlay = 0f;
+
 
 	void Start () {
 	
@@ -23,17 +25,18 @@ public class PlayGame : MonoBehaviour {
 			toPlay += 1f * Time.deltaTime;
 		}
 
-		if(toPlay > 5f)
+		if(toPlay > 6.5f)
 		{
+			jogando = true;
 			player.SetActive(true);
-			Destroy(menuCam.gameObject);
+			menuCam.SetActive(false);
 		}
 	}
 
 	public void play()
 	{
-		menuCam.GetComponent<Animator> ().SetBool ("play", true);
 		playing = true;
+		menuCam.GetComponent<Animator> ().SetBool ("play", playing);
 	}
 
 	IEnumerator fadeOut()

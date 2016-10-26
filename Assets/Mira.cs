@@ -4,7 +4,7 @@ using System.Collections;
 public class Mira : MonoBehaviour {
 
 	public Texture2D mira;
-	bool jogando = true;
+	public bool jogando = true;
 
 	void Start () 
 	{
@@ -27,6 +27,9 @@ public class Mira : MonoBehaviour {
 
 	void OnGUI()
 	{
-		GUI.DrawTexture (new Rect ((Screen.width/2) - (mira.width/4), (Screen.height/2) - (mira.height/4), mira.width/2, mira.height/2), mira);
+		if(jogando)
+		{
+			GUI.DrawTexture (new Rect ((Screen.width/2) - (mira.width/4), (Screen.height/2) - (mira.height/4), mira.width/2, mira.height/2), mira);
+		}
 	}
 }
