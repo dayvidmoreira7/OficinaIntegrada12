@@ -4,6 +4,7 @@ using System.Collections;
 public class Empurrar : MonoBehaviour {
 
 	public GameObject textEmpurrar;
+	public GameObject key4;
 	Rigidbody rb;
 
 	bool prontoPraEmpurrar = false;
@@ -19,8 +20,9 @@ public class Empurrar : MonoBehaviour {
 		if(prontoPraEmpurrar && Input.GetKeyDown(KeyCode.E))
 		{
 		//	rb.AddForceAtPosition(Vector3.back * 300f, transform.position);
-			rb.AddForce(Vector3.back * 5f, ForceMode.Impulse);
+			rb.AddForce(Vector3.back * 500f, ForceMode.Impulse);
 			prontoPraEmpurrar = false;
+			key4.SetActive(true);
 			scriptAtivo = false;
 		}
 

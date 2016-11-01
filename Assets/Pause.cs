@@ -21,8 +21,6 @@ public class Pause : MonoBehaviour {
 	{
 		jogando = menuJogar.GetComponent<PlayGame> ().jogando;
 
-		Debug.Log (time);
-
 		if(jogando)
 		{
 			if(Input.GetKeyDown(KeyCode.Escape) && !pause)

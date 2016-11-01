@@ -26,7 +26,7 @@ public class ExibirLogos : MonoBehaviour {
 
 		if(Input.GetKey(KeyCode.Space))
 		{
-			speed = 1f;
+			speed = 2f;
 		}
 		else
 		{
@@ -53,6 +53,9 @@ public class ExibirLogos : MonoBehaviour {
 		case 5:
 			transform.localScale = new Vector3(0.8051217f, 0.1782459f, 0.7085786f);
 			break;
+		case 6:
+			transform.localScale = new Vector3(0.77f, 0.35f, 0.7085786f);
+			break;
 		}
 	}
 
@@ -77,13 +80,13 @@ public class ExibirLogos : MonoBehaviour {
 			{
 				cg.alpha -= speed * Time.deltaTime;
 			}
-			if(cg.alpha < 0f && counter < 5)
+			if(cg.alpha < 0f && counter < 6)
 			{
 				counter += 1;
 				fadeIn = true;
 			}
 		}
-		if(cg.alpha < 0f && counter == 5 && !fadeIn)
+		if(cg.alpha < 0f && counter == 6 && !fadeIn)
 		{
 			canvasPreJogo.GetComponent<CanvasGroup>().alpha -= 0.25f * Time.deltaTime;
 			if(canvasPreJogo.GetComponent<CanvasGroup>().alpha < 0f)

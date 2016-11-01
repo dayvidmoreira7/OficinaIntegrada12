@@ -4,7 +4,9 @@ using System.Collections;
 public class Pickable1 : MonoBehaviour {
 
 	public GameObject Txt1;
-	public GameObject Apoio;
+
+	public AbrirPortaEscola ape;
+
 	public bool txtAppear1 = false;
 	public bool onHand1 = false;
 	public bool readyToPick1 = false;
@@ -27,13 +29,8 @@ public class Pickable1 : MonoBehaviour {
 
 		if(onHand1)
 		{
-			this.transform.parent = GameObject.Find("FPSController").transform;
-			this.transform.parent = GameObject.Find("FirstPersonCharacter").transform;
-			this.transform.position = Apoio.GetComponent<Transform>().position;
-			this.transform.rotation = Apoio.GetComponent<Transform>().rotation;
-			this.transform.localScale = Apoio.GetComponent<Transform>().localScale;
-			gameObject.GetComponent<Rigidbody>().useGravity = false;
-			gameObject.GetComponent<BoxCollider>().enabled = false;
+			ape.comChave = true;
+			Destroy(gameObject);
 		}
 
 		if(txtAppear1)

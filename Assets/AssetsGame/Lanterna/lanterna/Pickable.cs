@@ -57,6 +57,7 @@ public class Pickable : MonoBehaviour {
 		{
 			panel.SetActive(true);
 
+			GetComponent<Animator>().enabled = true;
 			this.transform.parent = GameObject.Find("FPSController").transform;
 			this.transform.parent = GameObject.Find("FirstPersonCharacter").transform;
 			this.transform.position = playerHand.GetComponent<Transform>().position;

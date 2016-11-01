@@ -3,13 +3,18 @@ using System.Collections;
 
 public class AudioContrll : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	public AudioClip abertura;
+
+	AudioSource mySource;
+
+	void Start () 
+	{
+		mySource = GetComponent<AudioSource> ();
+		mySource.clip = abertura;
+		mySource.Play ();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-	
+	void Update () 
+	{
 	}
 }
