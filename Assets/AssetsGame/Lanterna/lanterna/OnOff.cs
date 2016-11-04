@@ -45,12 +45,12 @@ public class OnOff : MonoBehaviour {
 			{
 				recarregando = true;
 			}
-			if(recarregando && Input.anyKeyDown)
+	/*		if(recarregando && Input.anyKeyDown)
 			{
 				energy = 8f;
 				Baterias.GetComponent<BatteryCount>().numeroBaterias -= 1;
 				recarregando = false;
-			}
+			}	*/
 		}
 
 		if(power)
