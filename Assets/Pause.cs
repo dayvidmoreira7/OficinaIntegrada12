@@ -11,6 +11,7 @@ public class Pause : MonoBehaviour {
 	public GameObject player;
 	public GameObject camCursor;
 	public GameObject menuJogar;
+	public GameObject pausePanel;
 
 	void Start () 
 	{
@@ -40,11 +41,13 @@ public class Pause : MonoBehaviour {
 			Pausar();
 			player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = false;
 			camCursor.GetComponent<Mira>().jogando = false;
+			pausePanel.SetActive(true);
 			break;
 		case false:
 			Despausar();
 			player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().enabled = true;
 			camCursor.GetComponent<Mira>().jogando = true;
+			pausePanel.SetActive(false);
 			break;
 		}
 

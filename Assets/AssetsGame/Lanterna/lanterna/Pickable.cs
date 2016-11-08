@@ -6,7 +6,8 @@ public class Pickable : MonoBehaviour {
 	public GameObject Txt;
 	public GameObject Txt1;
 	public GameObject playerHand;
-	public GameObject panel; //panel1;
+	public GameObject panel;
+	public GameObject celular;//panel1;
 //	public GameObject imgPanel1;
 
 	public Material batteryMat;
@@ -27,8 +28,9 @@ public class Pickable : MonoBehaviour {
 	{
 		if(readyToPick)
 		{
-			if(Input.GetKey(KeyCode.E))
+			if(Input.GetKeyDown(KeyCode.E) && !onHand)
 			{
+				celular.GetComponent<Celular>().indiceObj += 1;
 				onHand = true;
 				txtAppear = false;
 			}
