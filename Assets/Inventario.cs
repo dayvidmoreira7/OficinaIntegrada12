@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Inventario : MonoBehaviour {
+
+	public List<GameObject> slots;
 
 	public GameObject player;
 	public GameObject camCursor;
