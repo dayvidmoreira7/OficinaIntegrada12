@@ -5,6 +5,7 @@ public class PickBilhete : MonoBehaviour {
 
 	public GameObject celular, bilheteText, catraca;
 	bool readyToPick = false;
+	bool picked = false;
 
 	void Start () 
 	{
@@ -19,15 +20,24 @@ public class PickBilhete : MonoBehaviour {
 			{
 				celular.GetComponent<Celular>().indiceObj += 1;
 				catraca.GetComponent<Animator>().enabled = true;
-				Destroy(gameObject);
+				picked = true;
 			}
+		}
+
+		if(picked)
+		{
+			bilheteText.SetActive (false);
+			Destroy(gameObject);
 		}
 	}
 
 	void OnTriggerEnter(Collider col)
 	{
-		readyToPick = true;
-		bilheteText.SetActive (true);
+		if(!picked)
+		{
+			readyToPick = true;
+			bilheteText.SetActive (true);
+		}
 	}
 	
 	void OnTriggerExit(Collider other)

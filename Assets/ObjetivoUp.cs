@@ -17,8 +17,18 @@ public class ObjetivoUp : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		cartao.SetActive (true);
-		celular.GetComponent<Celular> ().indiceObj += 1;
-		Destroy (gameObject);
+		if(celular.GetComponent<Celular>().indiceObj == 1)
+		{
+			cartao.SetActive (true);
+			celular.GetComponent<Celular> ().indiceObj += 1;
+			Destroy (gameObject);
+		}
+
+		if(celular.GetComponent<Celular>().indiceObj == 3)
+		{
+			celular.GetComponent<Celular> ().indiceObj += 1;
+			Destroy (gameObject);
+		}
+
 	}
 }
