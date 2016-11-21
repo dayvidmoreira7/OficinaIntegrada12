@@ -22,7 +22,7 @@ public class Empurrar : MonoBehaviour {
 		//	rb.AddForceAtPosition(Vector3.back * 300f, transform.position);
 			rb.AddForce(Vector3.back * 500f, ForceMode.Impulse);
 			prontoPraEmpurrar = false;
-			key4.SetActive(true);
+			key4.GetComponent<Pickable1>().empurrado = true;
 			scriptAtivo = false;
 		}
 

@@ -10,6 +10,7 @@ public class Pickable1 : MonoBehaviour {
 	public bool txtAppear1 = false;
 	public bool onHand1 = false;
 	public bool readyToPick1 = false;
+	public bool empurrado = false;
 
 	void Start ()
 	{
@@ -45,10 +46,13 @@ public class Pickable1 : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		readyToPick1 = true;
-		if(!onHand1)
+		if(empurrado)
 		{
-			txtAppear1 = true;
+			readyToPick1 = true;
+			if(!onHand1)
+			{
+				txtAppear1 = true;
+			}
 		}
 	}
 

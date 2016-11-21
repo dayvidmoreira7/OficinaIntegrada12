@@ -31,6 +31,8 @@ public class Pickable : MonoBehaviour {
 			if(Input.GetKeyDown(KeyCode.E) && !onHand)
 			{
 				celular.GetComponent<Celular>().indiceObj += 1;
+				celular.GetComponent<Celular>().indiceMsg += 1;
+				celular.GetComponent<Celular>().tocarSom = true;
 				onHand = true;
 				txtAppear = false;
 			}

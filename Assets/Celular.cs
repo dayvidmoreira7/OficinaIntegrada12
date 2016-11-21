@@ -9,17 +9,20 @@ public class Celular : MonoBehaviour {
 	public List<Material> temperatura;
 	public List<Transform>	objeto;
 
+	public AudioClip somMensagem;
+
 	public MeshRenderer tela;
 
 	public int indiceObj;
-	int indiceMsg;
+	public int indiceMsg;
 	int indiceTmp;
+	int olharTela = 1;
 
 	Material thisObj;
 	Material thisMsg;
 	Material thisTmp;
 
-	int olharTela = 1;
+	public bool tocarSom = false;
 
 	float x;
 	float z;
@@ -68,6 +71,12 @@ public class Celular : MonoBehaviour {
 		case 3:
 			tela.material = thisTmp;
 			break;
+		}
+
+		if(tocarSom)
+		{
+			GetComponent<AudioSource>().PlayOneShot(somMensagem);
+			tocarSom = false;
 		}
 	}
 }

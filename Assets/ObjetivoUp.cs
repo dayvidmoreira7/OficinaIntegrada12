@@ -21,12 +21,13 @@ public class ObjetivoUp : MonoBehaviour {
 		{
 			cartao.SetActive (true);
 			celular.GetComponent<Celular> ().indiceObj += 1;
+			celular.GetComponent<Celular>().indiceMsg += 1;
 			Destroy (gameObject);
 		}
 
 		if(celular.GetComponent<Celular>().indiceObj == 3)
 		{
-			celular.GetComponent<Celular> ().indiceObj += 1;
+			celular.GetComponent<Celular> ().indiceObj += 2;
 			Destroy (gameObject);
 		}
 
