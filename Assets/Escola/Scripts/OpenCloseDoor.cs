@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 public class OpenCloseDoor : MonoBehaviour {
 
 	public GameObject textDoor;
-	public GameObject textLocked;
 	public AudioClip openDoor;
 	public AudioClip closeDoorAudio;
-	public AudioClip lockWarn;
-	public bool open = false,lockedWarn = false, readyToOpen, tocarAudio = false, tocarAudio2 = false, comChave = false;
+	public bool open = false, readyToOpen, tocarAudio = false, tocarAudio2 = false;
 
 	float counter = 0f;
 
@@ -20,28 +17,14 @@ public class OpenCloseDoor : MonoBehaviour {
 	
 	void Update ()
 	{	
-		Debug.Log (lockedWarn);
-
 		if(readyToOpen)
 		{
 			if(Input.GetKeyDown(KeyCode.E) && !this.open)
 			{
-				if(comChave)
-				{
-					this.open = true;
-					tocarAudio = true;
-					readyToOpen = false;
-				}
-				else
-				{
-					lockedWarn = true;
-				}
+				this.open = true;
+				tocarAudio = true;
+				readyToOpen = false;
 			}
-		}
-
-		if(lockedWarn)
-		{
-			TocandoWarn();
 		}
 
 		if(tocarAudio)
@@ -96,13 +79,6 @@ public class OpenCloseDoor : MonoBehaviour {
 		gameObject.GetComponent<AudioSource> ().PlayOneShot (closeDoorAudio);
 		tocarAudio2 = false;
 	}
-
-	void TocandoWarn()
-	{
-		gameObject.GetComponent<AudioSource> ().PlayOneShot (lockWarn);
-		lockedWarn = false;
-	}
-
 
 /*	IEnumerator closeDoor()
 	{

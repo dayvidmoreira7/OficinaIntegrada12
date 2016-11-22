@@ -15,6 +15,8 @@ public class AbaixarCatraca : MonoBehaviour {
 	
 	void Update () 
 	{
+		Debug.Log (open);
+
 		if(readyToOpen)
 		{
 			if(Input.GetKeyDown(KeyCode.E))
