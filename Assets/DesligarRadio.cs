@@ -5,6 +5,8 @@ public class DesligarRadio : MonoBehaviour {
 
 	public GameObject textRadio;
 	public GameObject celular;
+	public GameObject noticia;
+
 	bool desligar = false;
 	bool prontopraDesligar = false;
 
@@ -20,6 +22,7 @@ public class DesligarRadio : MonoBehaviour {
 			if(Input.GetKeyDown(KeyCode.E) && !desligar)
 			{
 				GetComponent<AudioSource>().enabled = false;
+				noticia.GetComponent<LerNoticia>().radioDesligado = true;
 				celular.GetComponent<Celular>().indiceObj += 1;
 				desligar = true;
 			}

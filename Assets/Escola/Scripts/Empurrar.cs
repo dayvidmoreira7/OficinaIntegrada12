@@ -4,6 +4,7 @@ using System.Collections;
 public class Empurrar : MonoBehaviour {
 
 	public GameObject textEmpurrar;
+	public GameObject celular;
 	public GameObject key4;
 	Rigidbody rb;
 
@@ -34,11 +35,14 @@ public class Empurrar : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		if (scriptAtivo) 
+		if(celular.GetComponent<Celular>().indiceObj == 7)
 		{
-			if (!prontoPraEmpurrar) {
-				textEmpurrar.SetActive (true);
-				prontoPraEmpurrar = true;
+		if (scriptAtivo) 
+			{
+				if (!prontoPraEmpurrar) {
+					textEmpurrar.SetActive (true);
+					prontoPraEmpurrar = true;
+				}
 			}
 		}
 	}

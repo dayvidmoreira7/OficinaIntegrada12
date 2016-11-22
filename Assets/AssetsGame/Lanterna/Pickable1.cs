@@ -4,6 +4,7 @@ using System.Collections;
 public class Pickable1 : MonoBehaviour {
 
 	public GameObject Txt1;
+	public GameObject celular;
 
 	public AbrirPortaEscola ape;
 
@@ -21,10 +22,11 @@ public class Pickable1 : MonoBehaviour {
 	{
 		if(readyToPick1)
 		{
-			if(Input.GetKey(KeyCode.E))
+			if(Input.GetKeyDown(KeyCode.E) && !onHand1)
 			{
-				onHand1 = true;
+				celular.GetComponent<Celular>().indiceObj += 1;
 				txtAppear1 = false;
+				onHand1 = true;
 			}
 		}
 
