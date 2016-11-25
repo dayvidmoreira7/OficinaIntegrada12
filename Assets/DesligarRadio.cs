@@ -24,6 +24,8 @@ public class DesligarRadio : MonoBehaviour {
 				GetComponent<AudioSource>().enabled = false;
 				noticia.GetComponent<LerNoticia>().radioDesligado = true;
 				celular.GetComponent<Celular>().indiceObj += 1;
+				gameObject.GetComponent<BoxCollider>().enabled = false;
+				textRadio.SetActive(false);
 				desligar = true;
 			}
 		}

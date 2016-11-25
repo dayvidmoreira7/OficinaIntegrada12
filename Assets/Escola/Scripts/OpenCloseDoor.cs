@@ -20,8 +20,6 @@ public class OpenCloseDoor : MonoBehaviour {
 	
 	void Update ()
 	{	
-		Debug.Log (lockedWarn);
-
 		if(readyToOpen)
 		{
 			if(Input.GetKeyDown(KeyCode.E) && !this.open)

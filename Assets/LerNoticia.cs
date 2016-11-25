@@ -6,6 +6,8 @@ public class LerNoticia : MonoBehaviour {
 
 	public GameObject noticia;
 	public GameObject textNoticia;
+	public GameObject raposa;
+	public GameObject triggerZombi;
 
 	public bool radioDesligado = false;
 
@@ -35,6 +37,8 @@ public class LerNoticia : MonoBehaviour {
 		{
 		case true:
 			noticia.SetActive(true);
+			raposa.SetActive(true);
+			triggerZombi.SetActive(true);
 			break;
 		case false:
 			noticia.SetActive(false);

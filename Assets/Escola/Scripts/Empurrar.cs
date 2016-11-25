@@ -35,7 +35,7 @@ public class Empurrar : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(celular.GetComponent<Celular>().indiceObj == 7)
+		if(celular.GetComponent<Celular>().indiceObj == 8)
 		{
 		if (scriptAtivo) 
 			{

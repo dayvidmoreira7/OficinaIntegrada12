@@ -1,0 +1,33 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class SomarSaida : MonoBehaviour {
+
+	GameObject raposa;
+
+	void Start () {
+		raposa = GameObject.Find("Raposa");
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		Debug.Log (raposa.GetComponent<IA> ().saida);
+	}
+
+	void OnTriggerEnter(Collider col)
+	{
+		if(raposa.GetComponent<IA>().saida < 3)
+		{
+			raposa.GetComponent<IA> ().saida += 1;
+			raposa.GetComponent<IA> ().define = true;
+		}
+
+		if(raposa.GetComponent<IA>().saida == 3)
+		{
+			raposa.GetComponent<IA>().saida = 0;
+			raposa.SetActive(false);
+		}
+
+		Destroy (this.gameObject);
+	}
+}
