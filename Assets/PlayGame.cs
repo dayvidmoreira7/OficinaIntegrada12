@@ -6,6 +6,7 @@ public class PlayGame : MonoBehaviour {
 	public GameObject canvasMenu;
 	public GameObject menuCam;
 	public GameObject player;
+	public GameObject soundController;
 
 	bool playing = false;
 	public bool jogando = false;
@@ -22,6 +23,7 @@ public class PlayGame : MonoBehaviour {
 		if(playing)
 		{
 			StartCoroutine (fadeOut ());
+			StartCoroutine(soundTurnDown());
 			toPlay += 1f * Time.deltaTime;
 		}
 
@@ -49,6 +51,16 @@ public class PlayGame : MonoBehaviour {
 		cg.blocksRaycasts = false;
 		cg.interactable = false;
 
+		yield return null;
+	}
+
+	IEnumerator soundTurnDown()
+	{
+		if(soundController.GetComponent<AudioSource>().volume > 0f)
+		{
+			soundController.GetComponent<AudioSource>().volume -= 0.25f * Time.deltaTime;
+		}
+		
 		yield return null;
 	}
 }

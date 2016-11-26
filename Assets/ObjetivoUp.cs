@@ -31,7 +31,7 @@ public class ObjetivoUp : MonoBehaviour {
 			Destroy (gameObject);
 		}	
 
-		if(celular.GetComponent<Celular>().indiceObj == 6)
+		if(celular.GetComponent<Celular>().indiceObj == 7)
 		{
 			celular.GetComponent<Celular> ().indiceObj += 1;
 			Destroy (gameObject);

@@ -11,7 +11,7 @@ public class IA : MonoBehaviour {
 	public bool lantPower;
 	public int saida = 0;
 
-	Transform target;
+	public Transform target;
 	float f_RotSpeed=3.0f,f_MoveSpeed = 8.0f;
 
 	void Start () 
@@ -59,8 +59,7 @@ public class IA : MonoBehaviour {
 
 	void defineTarget()
 	{
-		if(lantPower && target.name != "SaidaRaposa0" || lantPower && target.name != "SaidaRaposa1" || 
-		   lantPower && target.name != "SaidaRaposa2")
+		if(lantPower)
 		{
 			target = GameObject.Find("FPSController").transform;
 			define = false;

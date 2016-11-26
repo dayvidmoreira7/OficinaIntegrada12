@@ -19,7 +19,7 @@ public class SomarSaida : MonoBehaviour {
 		if(raposa.GetComponent<IA>().saida < 3)
 		{
 			raposa.GetComponent<IA> ().saida += 1;
-			raposa.GetComponent<IA> ().define = true;
+			raposa.GetComponent<IA> ().target = GameObject.Find("SaidaRaposa" + raposa.GetComponent<IA>().saida.ToString()).transform;
 		}
 
 		if(raposa.GetComponent<IA>().saida == 3)

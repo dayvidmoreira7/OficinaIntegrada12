@@ -9,14 +9,18 @@ public class LerNoticia : MonoBehaviour {
 	public GameObject raposa;
 	public GameObject triggerZombi;
 
+	public AudioClip mod3;
+
 	public bool radioDesligado = false;
+	bool firstRead = false;
 
 	bool mostrandoNoticia = false;
 	bool prontoPraMostrar = false;
 
+	public GameObject celular;
+
 	void Start () 
 	{
-	
 	}
 	
 	void Update () 
@@ -30,6 +34,13 @@ public class LerNoticia : MonoBehaviour {
 			else if(Input.GetKeyDown(KeyCode.E) && mostrandoNoticia)
 			{
 				mostrandoNoticia = false;
+			}
+
+			if(!firstRead && Input.GetKeyDown(KeyCode.E))
+			{
+				celular.GetComponent<Celular>().indiceObj += 1;
+				GetComponent<AudioSource>().PlayOneShot(mod3);
+				firstRead = true;
 			}
 		}
 
