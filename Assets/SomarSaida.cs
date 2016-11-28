@@ -25,6 +25,7 @@ public class SomarSaida : MonoBehaviour {
 		if(raposa.GetComponent<IA>().saida == 3)
 		{
 			raposa.GetComponent<IA>().saida = 0;
+			Destroy(GameObject.Find("SaidaRaposa2"));
 			raposa.SetActive(false);
 		}
 
