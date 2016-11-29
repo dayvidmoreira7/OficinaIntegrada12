@@ -7,6 +7,7 @@ public class AbrirUmaPorta : MonoBehaviour {
 	public GameObject doorParticle;
 	public GameObject celular;
 	public GameObject chaveText;
+	public GameObject soundPickKey;
 
 	bool peguei = false;
 	bool praPegar = false;
@@ -33,6 +34,7 @@ public class AbrirUmaPorta : MonoBehaviour {
 			minhaPorta.GetComponent<OpenCloseDoor>().comChave = true;
 			celular.GetComponent<Celular>().indiceObj += 1;
 			chaveText.SetActive (false);
+			Instantiate(soundPickKey, this.transform.position, this.transform.rotation);
 			Destroy(gameObject);
 		}
 	}

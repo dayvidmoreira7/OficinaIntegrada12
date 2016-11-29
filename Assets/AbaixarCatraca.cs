@@ -4,9 +4,11 @@ using System.Collections;
 public class AbaixarCatraca : MonoBehaviour {
 
 	bool open = false;
+	bool tocando = false;
 	bool readyToOpen = false;
 
 	public GameObject textCatraca;
+	public AudioClip audioCatraca;
 
 	void Start () 
 	{
@@ -26,6 +28,17 @@ public class AbaixarCatraca : MonoBehaviour {
 		if(open)
 		{
 			StartCoroutine(openFalse());
+		}
+
+		if(GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Open") && !tocando)
+		{
+			GetComponent<AudioSource>().PlayOneShot(audioCatraca);
+			tocando = true;
+		}
+
+		if(GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Idle"))
+		{
+			tocando = false;
 		}
 
 		GetComponent<Animator> ().SetBool ("open", open);

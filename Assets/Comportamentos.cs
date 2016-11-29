@@ -4,6 +4,9 @@ using System.Collections;
 public class Comportamentos : MonoBehaviour {
 
 	public GameObject myCam;
+	public GameObject raposa;
+
+	float resetcounter = 0f;
 
 	bool run;
 
@@ -22,9 +25,10 @@ public class Comportamentos : MonoBehaviour {
 
 	void OnTriggerEnter(Collider col)
 	{
-		if(col.name == "Raposa")
+	/*	if(col.name == "Raposa")
 		{
-			Application.LoadLevel("Principal");
-		}
+			raposa.GetComponent<IA>().seguirPlayer = true;
+			raposa.GetComponent<IA>().define = true;
+		}	*/
 	}
 }

@@ -3,19 +3,17 @@ using System.Collections;
 
 public class AudioContrll : MonoBehaviour {
 
-	public AudioClip abertura;
 	public AudioClip ambiente;
 
 	AudioSource mySource;
 
 	public bool playing = false;
 	bool diminuir = true;
+	bool tocandoAmbiente = false;
 
 	void Start () 
 	{
 		mySource = GetComponent<AudioSource> ();
-		mySource.clip = abertura;
-		mySource.Play ();
 	}
 	
 	void Update () 
@@ -23,6 +21,13 @@ public class AudioContrll : MonoBehaviour {
 		if(playing)
 		{
 			StartCoroutine(soundTurnDown());
+		}
+
+		if(!diminuir && !tocandoAmbiente)
+		{
+			mySource.clip = ambiente;
+			mySource.Play();
+			tocandoAmbiente = true;
 		}
 	}
 
@@ -40,7 +45,6 @@ public class AudioContrll : MonoBehaviour {
 
 		if(!diminuir && mySource.volume < 0.05f)
 		{
-			mySource.clip = ambiente;
 			mySource.volume += 0.02f * Time.deltaTime;
 		}
 		

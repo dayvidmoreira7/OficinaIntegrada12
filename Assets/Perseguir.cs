@@ -23,13 +23,10 @@ public class Perseguir : MonoBehaviour {
 	{
 		raposa.GetComponent<IA> ().andar = true;
 		raposa.GetComponent<IA> ().define = true;
-
-		if(raposa.GetComponent<IA>().lantPower == false)
-		{
-			saida1.SetActive (true);
-			saida2.SetActive (true);
-			saida3.SetActive (true);
-		}
+		
+		saida1.SetActive (true);
+		saida2.SetActive (true);
+		saida3.SetActive (true);
 
 		Destroy (gameObject);
 	}

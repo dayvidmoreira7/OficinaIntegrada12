@@ -9,7 +9,6 @@ public class PlayGame : MonoBehaviour {
 	public GameObject soundController;
 
 	bool playing = false;
-	bool diminuir = true;
 	public bool jogando = false;
 
 	float toPlay = 0f;

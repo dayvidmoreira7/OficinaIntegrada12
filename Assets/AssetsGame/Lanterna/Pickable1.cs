@@ -5,6 +5,7 @@ public class Pickable1 : MonoBehaviour {
 
 	public GameObject Txt1;
 	public GameObject celular;
+	public GameObject pickKeySound;
 
 	public AbrirPortaEscola ape;
 
@@ -33,6 +34,7 @@ public class Pickable1 : MonoBehaviour {
 		if(onHand1)
 		{
 			ape.comChave = true;
+			Instantiate(pickKeySound, this.transform.position, this.transform.rotation);
 			Destroy(gameObject);
 		}
 

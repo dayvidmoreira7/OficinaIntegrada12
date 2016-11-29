@@ -6,13 +6,17 @@ public class IA : MonoBehaviour {
 	private Animator anim;
 	public GameObject lanterna;
 
+	public BoxCollider b1;
+	public BoxCollider b2;
+
 	public bool andar;
 	public bool define;
+	public bool seguirPlayer = false;
 	public bool lantPower;
 	public int saida = 0;
 
 	public Transform target;
-	float f_RotSpeed=3.0f,f_MoveSpeed = 8.0f;
+	float f_RotSpeed=3.0f,f_MoveSpeed = 6.0f;
 
 	void Start () 
 	{
@@ -28,12 +32,11 @@ public class IA : MonoBehaviour {
 			defineTarget();
 		}
 
-		if(andar && lantPower)
+		if(andar && saida < 3 && !seguirPlayer)
 		{
 			Follow();
 		}
-
-		if(andar && !lantPower && saida < 3 )
+		if(andar && seguirPlayer)
 		{
 			Follow();
 		}
@@ -59,15 +62,14 @@ public class IA : MonoBehaviour {
 
 	void defineTarget()
 	{
-		if(lantPower)
-		{
-			target = GameObject.Find("FPSController").transform;
-			define = false;
-		}
-
-		if(!lantPower)
+		if(!seguirPlayer)
 		{
 			target = GameObject.Find("SaidaRaposa" + saida.ToString()).transform;
+			define = false;
+		}
+		else
+		{
+			target = GameObject.Find("FPSController").transform;
 			define = false;
 		}
 	}
